@@ -52,7 +52,7 @@ func (c *Config) Parse() (err error) {
 	flag.StringVar(&c.logFilename, "logfile", "/dev/stdout", "log statement dump file")
 	flag.StringVar(&c.sampleFilename, "samplefile", os.DevNull, "received message signal dump file, offset and message length are displayed to log when enabled")
 
-	flag.IntVar(&c.CenterFreq, "centerfreq", 920299072, "center frequency to receive on")
+	flag.IntVar(&c.CenterFreq, "centerfreq", 911224178, "center frequency to receive on")
 	flag.IntVar(&c.SymbolLength, "symbollength", 73, `symbol length in samples, bandwidth and performance are determined by this value
 	narrow/fast:   ( 8, 262.144 kHz)
 	medium/medium: (32,   1.048 MHz), (48, 1.572 MHz)
