@@ -29,8 +29,8 @@ import (
 
 	"github.com/bemasher/rtltcp"
 
-	"github.com/bemasher/rtlamr/bch"
-	"github.com/bemasher/rtlamr/preamble"
+	"github.com/briannadeau/rtlamr/bch"
+	"github.com/briannadeau/rtlamr/preamble"
 )
 
 const (
