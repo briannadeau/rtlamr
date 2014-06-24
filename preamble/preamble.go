@@ -5,7 +5,7 @@ import (
 	"math"
 	"math/cmplx"
 
-	"github.com/bemasher/fftw"
+	"github.com/briannadeau/fftw"
 )
 
 // Preamble detection uses half-complex DFT to convolve signal with preamble
